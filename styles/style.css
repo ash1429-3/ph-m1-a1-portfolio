@@ -96,7 +96,8 @@ main>section {
 }
 
 
-.web-dev-article-2 {
+.web-dev-article-2,
+.web-dev-article-4 {
     display: flex;
     justify-content: space-between;
     padding: 48px;
@@ -104,6 +105,7 @@ main>section {
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 }
+
 
 .article-2-content {
     max-width: 477px;
@@ -143,4 +145,33 @@ main>section {
     height: 47px;
     padding: 12px 16px;
 
+}
+
+
+.web-dev-article-3 {
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 48px;
+    margin-top: 32px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+.article-3-image {
+    width: 223px;
+    height: 208px;
+    padding-right: 17px;
+    padding-bottom: 32px;
+    margin-right: 32px;
+}
+
+
+.web-dev-article-4 {
+    margin-top: 32px;
+}
+
+.article-4-image{
+    width: 206px;
+    height: 187px;
+    padding: 26px 16px;
 }
