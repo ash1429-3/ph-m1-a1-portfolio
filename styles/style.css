@@ -47,13 +47,15 @@
 
 .banner-text,
 .web-dev-article-1-text,
-.article-2-content>p {
-    color: rgb(13, 19, 33, 0.7);
+.article-2-content>p,
+.ins-text {
+    color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
+    opacity: 0.7;
 }
 
 .banner-btn {
@@ -70,11 +72,18 @@
     text-align: center;
 }
 
+
+
+
+
 main>section {
     max-width: 1140px;
     margin: 75px auto;
 
 }
+
+
+/* web-dev section styles */
 
 .web-dev-section {
     border-radius: 16px;
@@ -85,7 +94,8 @@ main>section {
     padding: 80px 97px;
 }
 
-.web-dev-article-1-title {
+.web-dev-article-1-title,
+.ins-title {
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
@@ -170,8 +180,32 @@ main>section {
     margin-top: 32px;
 }
 
-.article-4-image{
+.article-4-image {
     width: 206px;
     height: 187px;
     padding: 26px 16px;
+}
+
+
+/* ins-section styles */
+
+.inspiration-section {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.ins-video {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    width: 1140px;
+    height: 614px;
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ins-video iframe{
+    border-radius: 16px;
 }
