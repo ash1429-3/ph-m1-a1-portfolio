@@ -292,7 +292,8 @@ main>section {
     background: rgb(255, 255, 255);
 }
 
-.support-container>input[type="text"] {
+.support-container>input[type="text"],
+.support-container>input::placeholder {
     color: rgba(13, 19, 33, 0.4);
     font-size: 16px;
     font-weight: 400;
