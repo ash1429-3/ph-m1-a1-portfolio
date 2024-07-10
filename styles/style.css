@@ -48,7 +48,9 @@
 .banner-text,
 .web-dev-article-1-text,
 .article-2-content>p,
-.ins-text {
+.ins-text,
+.current-target-section>p,
+.tech-cards>p {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
@@ -95,7 +97,8 @@ main>section {
 }
 
 .web-dev-article-1-title,
-.ins-title {
+.ins-title,
+.current-target-section>h3 {
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
@@ -206,6 +209,59 @@ main>section {
     justify-content: center;
 }
 
-.ins-video iframe{
+.ins-video iframe {
     border-radius: 16px;
+}
+
+/* current target section styles */
+.tech-card-container {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+
+.tech-cards {
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.tech-cards>h4 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.css-bg {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.js-bg {
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.tech-image {
+    margin-bottom: 24px;
+}
+
+.tech-cards>p {
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.tech-cards>a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    F
 }
