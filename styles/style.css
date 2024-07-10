@@ -337,6 +337,30 @@ main>section {
 
 }
 
-.learn-more-button:hover{
+.learn-more-button:hover {
     cursor: pointer;
+}
+
+footer {
+    padding: 32px 150px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container>p {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.contact-media-icons {
+    display: flex;
+    gap: 24px;
 }
